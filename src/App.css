@@ -542,6 +542,15 @@ a {
   .nutrition-grid.two {
     grid-template-columns: 1fr;
   }
+  .reminder-panel {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .reminder-panel button,
+  .reminder-panel .ghost {
+    margin-left: 0;
+    width: 100%;
+  }
   .table-like div {
     grid-template-columns: 1fr;
   }
