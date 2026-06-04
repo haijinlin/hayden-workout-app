@@ -230,7 +230,7 @@ function getWeekKeys(date: Date) {
 
 function App() {
   const [mode, setMode] = useState<Mode>("home");
-  const [lang, setLang] = useLocalStorage<Lang>("lang", "zh");
+  const [lang, setLang] = useLocalStorage<Lang>("lang", "en");
   const [weeklyPlan, setWeeklyPlan] = useLocalStorage<WeeklyPlan>(
     "weeklyPlan",
     defaultWeeklyPlan
