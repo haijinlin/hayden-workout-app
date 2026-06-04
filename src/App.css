@@ -270,10 +270,13 @@ button:disabled {
   display: grid;
   gap: 6px;
   color: #94a3b8;
+  min-width: 0;
 }
 input,
 select {
   width: 100%;
+  max-width: 100%;
+  min-width: 0;
   box-sizing: border-box;
   min-height: 38px;
   border-radius: 8px;
@@ -281,6 +284,12 @@ select {
   background: #111827;
   color: #e2e8f0;
   padding: 8px 10px;
+}
+input[type="date"],
+input[type="time"] {
+  appearance: none;
+  -webkit-appearance: none;
+  display: block;
 }
 .weekly-template h4 {
   margin: 0 0 10px;
@@ -491,6 +500,7 @@ select {
   display: grid;
   gap: 6px;
   color: #94a3b8;
+  min-width: 0;
 }
 .body-form .wide {
   grid-column: 1 / -1;
@@ -529,7 +539,7 @@ a {
     flex-direction: column;
   }
   .template-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
   }
   .month-cell {
     min-height: 74px;
@@ -545,6 +555,13 @@ a {
   .reminder-panel {
     align-items: stretch;
     flex-direction: column;
+  }
+  .body-form {
+    grid-template-columns: 1fr;
+  }
+  input[type="date"],
+  input[type="time"] {
+    font-size: 16px;
   }
   .reminder-panel button,
   .reminder-panel .ghost {
