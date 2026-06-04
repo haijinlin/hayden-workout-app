@@ -1,0 +1,17 @@
+{
+  "name": "Hayden Workout App",
+  "short_name": "Hayden Workout",
+  "description": "Training, nutrition, reminders, and progress tracking for shape and strength.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1223",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/hayden-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
