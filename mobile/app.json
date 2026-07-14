@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Hayden Workout App",
+    "slug": "hayden-workout-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/hayden-app-icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/hayden-splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0b1223"
+    },
+    "ios": {
+      "bundleIdentifier": "com.hayden.workoutapp",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.hayden.workoutapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#0b1223",
+        "foregroundImage": "./assets/hayden-adaptive-icon.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/hayden-app-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1f26035d-5724-4251-a47a-5ba3c4d4ef36"
+      }
+    }
+  }
+}

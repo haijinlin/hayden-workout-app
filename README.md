@@ -1,6 +1,11 @@
 # Hayden Workout App
 
-A personal workout, nutrition, calendar, reminder, and progress tracking app built with React, TypeScript, and Vite.
+A personal workout, nutrition, calendar, reminder, and progress tracking app.
+
+This repository now contains:
+
+- the existing web app built with React, TypeScript, and Vite
+- a new native mobile app prototype built with Expo and React Native in `mobile/`
 
 ## Features
 
@@ -45,18 +50,41 @@ Recommended future stack for that stage: Supabase, Firebase, or a small API with
 
 ## Development
 
+Web app:
+
 ```bash
 npm install
 npm run dev
 ```
 
+Mobile app:
+
+```bash
+cd mobile
+npm install
+npm run start
+```
+
+Use Expo Go on iPhone or Android to scan the QR code from Expo.
+
 ## Build
+
+Web app:
 
 ```bash
 npm run build
 ```
 
 The build output is written to `dist/`.
+
+Mobile app type check:
+
+```bash
+cd mobile
+npx tsc --noEmit
+```
+
+For native app builds later, use Expo EAS Build.
 
 ## Deployment
 
