@@ -175,4 +175,19 @@ export const exercises: Exercise[] = [
     targetSets: 3,
     targetTimeSec: 30,
   },
+  {
+    id: "hollow-body-hold",
+    name: { en: "Hollow Body Hold", zh: "空心支撑" },
+    intro: {
+      en: "Press your low back into the floor, tuck the ribs down, and hold a banana-shaped body line without arching.",
+      zh: "下背贴住地面，肋骨下收，身体保持香蕉形弧线，不要塌腰。太难时先屈膝做。",
+    },
+    targetMuscles: {
+      en: "Abs, deep core, pelvic control, and full-body tension for a tighter waistline.",
+      zh: "主要练腹直肌、深层核心和骨盆控制，让腰腹更紧致。",
+    },
+    videoUrl: "https://www.youtube.com/watch?v=LlDNef_Ztsc",
+    targetSets: 3,
+    targetTimeSec: 20,
+  },
 ];

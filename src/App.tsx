@@ -77,6 +77,7 @@ const planBIds = [
   "pike-pushup",
   "bent-over-row",
   "side-plank",
+  "hollow-body-hold",
   "hip-thrust",
 ];
 
@@ -102,6 +103,7 @@ const progressionRules: Record<string, ProgressionRule> = {
   "reverse-crunch": { min: 10, max: 15, step: 1, type: "reps" },
   "dead-bug": { min: 8, max: 12, step: 1, type: "reps" },
   "side-plank": { min: 30, max: 60, step: 5, type: "time" },
+  "hollow-body-hold": { min: 20, max: 40, step: 5, type: "time" },
 };
 
 const copy = {
